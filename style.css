@@ -1,7 +1,7 @@
 :root {
     --background-cor: #f9f8f8;
     --branco-principal: #FFFFFF;
-    --font-: 'Open Sans'
+    --font-: 'Open Sans', sans-serif;
 }
 
 * {
@@ -12,16 +12,20 @@
 body {
     background-color: var(--background-cor);
     font-family: var(--font-);
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .navegacao{
-    background-color: var(--branco-principal);
+   background-color: var(--branco-principal);
+}
+
+.img__nav {
+    margin: 1em 0 1em 20%;
 }
 
 .lista__navegacao {
     display: flex;
     list-style-type: none;
-    text-align: right;
+	position: absolute;
+	right: 0;
 }
-
