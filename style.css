@@ -23,6 +23,7 @@ body {
     border: 2px;
     margin: 1em 1em 1em 10%;
     background-color: transparent;
+    cursor: pointer;
     
 } 
 
@@ -53,7 +54,7 @@ body {
 .nome {
     position: absolute;
 	right: 0;
-    margin: 2.2em 21% 1em 0; 
+    margin: 2.1em 21% 1em 0; 
 }
 
 .dashboard {
@@ -65,4 +66,43 @@ body {
     color: white;
     font-weight: 800;
     margin-left: 19%;
+    padding: 0.9em 0 0 0;
+    font-size: 21px;
+}
+
+/*CSS MAIN DA PÁGINA*/
+
+.titulo__primario {
+    font-weight: 600;
+    color: #6b6b6b;
+    margin: 1em 0 0.8em 18.8%;
+    font-size: 22px;
+}
+
+.container__cursos {
+    background-color: #FFFFFF;
+    width: 58vh;
+    height: 23vh;
+    margin-left: 19%;
+    border: solid 0.1px;
+    border-color: #e0dfdf;
+}
+
+.progressao__curso {
+    padding: 0.8em 0 0 0.3em;
+}
+
+.logo__curso {
+    margin: 0 0 0 1em;
+    float: left;
+}
+
+.texto__primario {
+    color: #747C81;
+    font-weight: 400;
+    margin: 1.4em 0 0 0;
+}
+
+.texto__curso {
+    margin-top: 3em;
 }
